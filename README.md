@@ -35,7 +35,7 @@ Program to get the word count from a text.
 
 Developed by: SWETHA P
 RegisterNumer:22008542
-```
+
 fname=input("Enter file name: ")
 num_words=0
 with open(fname,'r') as f:
@@ -43,7 +43,7 @@ with open(fname,'r') as f:
         words=line.split()
         num_words+=len(words)
 print("Number of words: ",num_words) 
-
+```
 ### OUTPUT:
 
 ![wordcountpy](https://user-images.githubusercontent.com/120623583/214792462-3e1cc81e-9e46-4853-b47b-70255c64b269.png)
